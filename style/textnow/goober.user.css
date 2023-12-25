@@ -39,6 +39,10 @@
         color: @text;
     }
 
+    .uikit-chat-item.uikit-chat-item--active :not(.uikit-chat-item--audio).uikit-chat-item__bubble--incoming {
+        background: @base-lighter;
+    }
+
     /*Input Section*/
     .messaging-v2 .responsive-enabled .chat .input {
         background: @base;
