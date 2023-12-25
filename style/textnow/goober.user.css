@@ -97,6 +97,11 @@
     .messaging-v2 .responsive-enabled .chat .profile-toolbar .new-header .conv-header-container {
         border-bottom: 1px solid @base-darker;
     }
+
+    /* Icons */
+    .start-conversation__icon {
+        content: url("");
+    }
 }
 
 
