@@ -114,18 +114,33 @@
     .messaging-v2 #recent-header button#newCall {
         background-image: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/dial.svg")
     }
+
     .messaging-v2 .responsive-enabled .chat .input .giphy-btn {
-        background: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/gif.svg")
+        background: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/gif.svg");
+        height: 24px;
+    }
+
+    .messaging-v2 .responsive-enabled .chat .input .giphy-btn:hover {
+        background: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/gif-hover.svg");
+        height: 24px;
     }
 
     .messaging-v2 .responsive-enabled .chat .input .emoji-btn {
-        background: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/emoji.svg")
+        background: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/emoji.svg");
+    }
+
+    .messaging-v2 .responsive-enabled .chat .input .emoji-btn:hover {
+        background: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/emoji-hover.svg");
     }
 
     .messaging-v2 .responsive-enabled .chat .input .gallery-btn {
-        background: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/gallery.svg")
+        background: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/gallery.svg");
+        height: 24px;
     }
 
+    .messaging-v2 .responsive-enabled .chat .input .gallery-btn:hover {
+        background: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/gallery-hover.svg");
+    }
 }
 
 
