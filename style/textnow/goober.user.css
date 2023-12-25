@@ -102,6 +102,20 @@
     .start-conversation__icon {
         content: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/phone.svg");
     }
+
+    .messaging-v2 .options-icon {
+        content: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/list.svg");
+    }
+
+    .messaging-v2 #recent-header button#newText {
+        background-image: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/text.svg")
+    }
+
+    .messaging-v2 #recent-header button#newCall {
+        background-image: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/dial.svg")
+    }
+
+
 }
 
 
