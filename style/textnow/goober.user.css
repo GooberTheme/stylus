@@ -87,13 +87,13 @@
     .messaging-v2 .responsive-enabled #recent-header.new-header > div:first-child > .name {
         color: @text-darker;
     }
-    
-    
+
+
     .messaging-v2 .responsive-enabled #recent-header.new-header {
         border-right: 1px solid @base-darker;
         border-bottom: 1px solid @base-darker;
     }
-    
+
     .messaging-v2 .responsive-enabled .chat .profile-toolbar .new-header .conv-header-container {
         border-bottom: 1px solid @base-darker;
     }
