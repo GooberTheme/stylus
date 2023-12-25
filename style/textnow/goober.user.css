@@ -154,6 +154,30 @@
     .messaging-v2 .responsive-enabled #sidebarNavContainer .sidebar-nav .side-nav-content-container .logoImg {
         content: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/logo.svg");
     }
+
+    #download-app .nav-elem .elem-img {
+        content: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/download.svg");
+    }
+
+    #phones-plans .nav-elem .elem-img {
+        content: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/cellular.svg");
+    }
+
+    #settings-nav .nav-elem .elem-img {
+        content: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/settings.svg");
+    }
+    
+    #help .nav-elem .elem-img {
+        content: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/help.svg");
+    }
+
+    #logout .nav-elem .elem-img {
+        content: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/logout.svg");
+    }
+
+    .messaging-v2 .responsive-enabled #sidebarNavContainer .sidebar-nav .nav-elem {
+        color: @text;
+    }
 }
 
 
