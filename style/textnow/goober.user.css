@@ -1,0 +1,110 @@
+/* ==UserStyle==
+@name           Textnow Goober
+@namespace      github.com/GooberTheme/stylus/style/textnow
+@description    The gooberiest theme for Textnow
+@version        1.0.01
+@author         Goober
+@updateURL https://github.com/GooberTheme/stylus/raw/main/style/textnow/goober.user.css
+@license GPL-3.0
+
+@preprocessor less
+==/UserStyle== */
+@-moz-document domain("www.textnow.com") {
+
+    /*Chat Section*/
+    .main-view .content {
+        color: @text;
+    }
+
+    #appContainer #chatContainer .content {
+        background-color: @base;
+    }
+
+    .uikit-chatview__timestamp {
+        color: @text;
+    }
+
+    .uikit-chat-item .uikit-chat-item__bubble--incoming {
+        background: @barney-purple;
+    }
+
+    .uikit-chat-item .uikit-chat-item__bubble--outgoing {
+        background: @pinky-red;
+        color: @text;
+    }
+
+    .messaging-v2 .chat-item.incoming .message .message-item .message-content,
+    .messaging-v2 .chat-item.incoming .message .message-item .message-sender {
+        color: @text;
+    }
+
+    /*Input Section*/
+    .messaging-v2 .responsive-enabled .chat .input {
+        background: @base;
+        border-top: 1px solid @base-darker;
+        caret-color: @text;
+    }
+
+    .chat .input #text-inner,
+    .group .input #text-inner {
+        background: @base;
+        color: @text;
+    }
+
+    /*Summary List*/
+    .uikit-summary-list__cell {
+        color: @text;
+    }
+
+    .uikit-summary-list__cell--active,
+    .uikit-summary-list__cell {
+        background-color: @base;
+    }
+
+    .uikit-summary-list__cell--active,
+    .uikit-summary-list__cell:active {
+        background-color: @base-darker;
+    }
+
+    .uikit-summary-list__cell:hover {
+        background-color: @base-lighter;
+    }
+
+    .uikit-text--muted {
+        color: @text-darker;
+    }
+
+    /*Top Section*/
+    #recent-header {
+        background-color: @base;
+    }
+
+    .messaging-v2 .responsive-enabled #recent-header.new-header > div:first-child > .phoneNumber {
+        color: @text;
+    }
+
+    .messaging-v2 .responsive-enabled #recent-header.new-header > div:first-child > .name {
+        color: @text-darker;
+    }
+    
+    
+    .messaging-v2 .responsive-enabled #recent-header.new-header {
+        border-right: 1px solid @base-darker;
+        border-bottom: 1px solid @base-darker;
+    }
+    
+    .messaging-v2 .responsive-enabled .chat .profile-toolbar .new-header .conv-header-container {
+        border-bottom: 1px solid @base-darker;
+    }
+}
+
+
+/* prettier-ignore */
+/*Colors List*/
+@base: #202127;
+@base-darker: #19191d;
+@base-lighter: #474957;
+@text: #eee;
+@text-darker: #999;
+@barney-purple: #9842ca;
+@pinky-red: #ff4747;
