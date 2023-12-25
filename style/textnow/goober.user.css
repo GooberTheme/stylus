@@ -1,4 +1,4 @@
-/* ==UserStyle==
+    /* ==UserStyle==
 @name           Textnow Goober
 @namespace      github.com/GooberTheme/stylus/style/textnow
 @homepageURL    https://github.com/GooberTheme/stylus/tree/main/style/textnow
@@ -166,7 +166,7 @@
     #settings-nav .nav-elem .elem-img {
         content: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/settings.svg");
     }
-    
+
     #help .nav-elem .elem-img {
         content: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/help.svg");
     }
@@ -177,6 +177,22 @@
 
     .messaging-v2 .responsive-enabled #sidebarNavContainer .sidebar-nav .nav-elem {
         color: @text;
+    }
+
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: @text-darker;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: @base-darker;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: @base-lighter;
     }
 }
 
