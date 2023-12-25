@@ -145,6 +145,15 @@
     .messaging-v2 .responsive-enabled .chat .input .gallery-btn:hover {
         background: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/gallery-hover.svg");
     }
+
+    /*Sidebar Section*/
+    .messaging-v2 .responsive-enabled #sidebarNavContainer .sidebar-nav {
+        background-color: @base-darker;
+    }
+
+    .messaging-v2 .responsive-enabled #sidebarNavContainer .sidebar-nav .side-nav-content-container .logoImg {
+        content: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/logo.svg");
+    }
 }
 
 
