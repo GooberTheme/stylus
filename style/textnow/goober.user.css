@@ -100,7 +100,7 @@
 
     /* Icons */
     .start-conversation__icon {
-        content: url("");
+        content: url("https://raw.githubusercontent.com/GooberTheme/stylus/main/style/textnow/svg/phone.svg");
     }
 }
 
