@@ -17,7 +17,7 @@ Install [Stylus](https://github.com/openstyles/stylus) for your chosen browser.
 <details open>
 <summary>🔍 Search Engines</summary>
 
-- [Brave](styles/Brave)
+- [Brave](styles/brave-search)
 
 </details>
 
