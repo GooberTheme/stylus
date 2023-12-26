@@ -11,7 +11,7 @@
 @preprocessor less
 ==/UserStyle== */
 @-moz-document domain("search.brave.com") {
-    
+
     color-scheme: @color;
     --color-container-highlight: @crust;
     --search-serp-container-background: @mantle;
@@ -140,6 +140,7 @@
 
 /* prettier-ignore */
 /*Colors List*/
+@color-scheme: dark;
 @base: #202127;
 @base-darker: #19191d;
 @base-lighter: #474957;
