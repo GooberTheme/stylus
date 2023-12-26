@@ -12,7 +12,6 @@
 ==/UserStyle== */
 @-moz-document domain("search.brave.com") {
 
-    color-scheme: @color;
     --color-container-highlight: @crust;
     --search-serp-container-background: @mantle;
     --body-bg: @base;
