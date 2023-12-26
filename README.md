@@ -1,4 +1,3 @@
-
 ## 🖥️ Install
 
 Install [Stylus](https://github.com/openstyles/stylus) for your chosen browser.
@@ -15,7 +14,12 @@ Install [Stylus](https://github.com/openstyles/stylus) for your chosen browser.
 3. Enjoy!
 
 &nbsp;
+<details open>
+<summary>🔍 Search Engines</summary>
 
+- [Brave](styles/Brave)
+
+</details>
 
 <details open>
 <summary>🎧 Music</summary>
