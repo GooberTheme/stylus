@@ -43,6 +43,11 @@
         background: @base-lighter;
     }
 
+    .messaging-v2 .chat-item.incoming a,
+    .messaging-v2 .chat-item.incoming a:hover {
+        color: @base;
+    }
+
     /*Input Section*/
     .messaging-v2 .responsive-enabled .chat .input {
         background: @base;
