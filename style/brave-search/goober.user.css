@@ -1,0 +1,149 @@
+/* ==UserStyle==
+@name           Brave Search Engine Goober
+@namespace      github.com/GooberTheme/stylus/style/brave-search
+@homepageURL    https://github.com/GooberTheme/stylus/tree/main/style/brave-search
+@description    The gooberiest theme for the Brave Search Engine
+@version        1.0.00
+@author         Goober
+@updateURL      https://github.com/GooberTheme/stylus/raw/main/style/brave-search/goober.user.css
+@license GPL-3.0
+
+@preprocessor less
+==/UserStyle== */
+@-moz-document domain("search.brave.com") {
+
+    --color-container-highlight: ;
+    --search-serp-container-background: ;
+    --body-bg: ;
+    --bg-glassy: ;
+    --bg-1: ;
+    --bg-2: ;
+    --bg-02: ;
+    --bg-04: ;
+    --bg-green: ;
+    --bg-blue: ;
+    --bg-red: ;
+    --bg-favicon: ;
+    --bg-form-control-selected: ;
+    --bg-form-control-unselected: ;
+    --form-control-selected: ;
+    --form-control-hover: ;
+    --form-control-focus: ;
+    --settings-header-bg: ;
+    --settings-header-text: ;
+    --settings-header-icon: ;
+    --settings-widget-text: ;
+    --settings-item-text: ;
+    --settings-item-icon: ;
+    --settings-item-border: ;
+    --settings-item-border-2: ;
+    --settings-btn-bg: ;
+    --settings-btn-text: ;
+    --settings-widget-outline: ;
+    --settings-independent-score: ;
+    --settings-global-score: ;
+    --brave-supporter-bg: ;
+    --brave-supporter-text: ;
+    --context-menu-header-border: ;
+    --color-primary: ;
+    --color-primary-2: ;
+    --color-primary-3: ;
+    --color-white: ;
+    --color-gray-2: ;
+    --color-gray-3: ;
+    --color-gray-4: ;
+    --color-gray-5: ;
+    --color-gray-6: ;
+    --color-green: ;
+    --color-red: ;
+    --color-blue: ;
+    --info-color: ;
+    --link-primary: ;
+    --link-secondary: ;
+    --link-visited: ;
+    --snippet-url: ;
+    --separator-dot: ;
+    --theme-purple: ;
+    --theme-yellow: ;
+    --border-color: ;
+    --blurple-300: ;
+    --text-01: ;
+    --text-02: ;
+    --text-03: ;
+    --interactive-04: ;
+    --interactive-05: ;
+    --interactive-06: ;
+    --interactive-07: ;
+    --interactive-08: ;
+    --focus-border: ;
+    --divider-01: ;
+    --disabled: ;
+    --btn-filled-bg: ;
+    --btn-filled-bg-hover: ;
+    --btn-filled-text-active: ;
+    --btn-filled-bg-active: ;
+    --btn-filled-text-disabled: ;
+    --btn-outline-border: ;
+    --btn-outline-border-hover: ;
+    --btn-outline-text: ;
+    --btn-outline-text-hover: ;
+    --btn-outline-text-active: ;
+    --btn-outline-border-active: ;
+    --btn-outline-text-disabled: ;
+    --btn-icon-svg-hover: ;
+    --btn-icon-bg-hover: ;
+    --btn-icon-svg-active: ;
+    --code-bg-0: ;
+    --code-border: ;
+    --code-color-1: ;
+    --code-color-2: ;
+    --code-color-3: ;
+    --code-color-4: ;
+    --code-color-5: @pink;
+    --search-bgd-01: ;
+    --search-bgd-02: ;
+    --search-bgd-03: ;
+    --search-bgd-04: ;
+    --search-bgd-05: ;
+    --search-bgd-06: ;
+    --search-bgd-07: ;
+    --search-bgd-08: ;
+    --search-line-01: ;
+    --search-line-02: ;
+    --search-text-01: ;
+    --search-text-02: ;
+    --search-text-03: ;
+    --search-text-04: ;
+    --search-text-05: ;
+    --search-text-06: ;
+    --search-text-09: ;
+    --search-text-10: ;
+    --search-interactive-01: ;
+    --search-interactive-02: ;
+    --search-interactive-03: ;
+    --search-interactive-04: ;
+    --search-interactive-05: ;
+    --gray-30: ;
+    --gray-60: ;
+    --gray-90: ;
+    --gray-110: ;
+    --gray-120: ;
+    --secondary-90: ;
+
+    #searchform > .searchbox-wrapper::after {
+      background-image: none;
+    }
+   
+}
+
+
+/* prettier-ignore */
+/*Colors List*/
+@color-scheme: dark;
+@base: #202127;
+@base-darker: #19191d;
+@base-lighter: #474957;
+@text: #eee;
+@text-darker: #999;
+@barney-purple: #9842ca;
+@pinky-red: #ff4747;
