@@ -12,6 +12,13 @@
 ==/UserStyle== */
 @-moz-document domain("www.textnow.com") {
 
+    /*Front Page*/
+    .nav-enabler,
+    .w-nav[data-collapse=medium] .w-nav-menu,
+    .nav-background-wf.absolute-background {
+        background-color: @base
+    }
+
     /*Chat Section*/
     .main-view .content {
         color: @text;
